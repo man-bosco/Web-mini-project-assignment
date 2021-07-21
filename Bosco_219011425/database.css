@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(81, 110, 98);
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: 60px;
+    background-color: black;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 0px 5%;
+    border-radius: 4px;
+    position: fixed;
+    width: 92%;
+    top: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 30px;
+    font-family: myriad pro regular;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+.logo{
+    font-family: RoadTest;
+    color: white;
+    font-size: 13px;
+}
+.loga{
+    background-color: forestgreen;
+    width: 70px;
+     height: 40px;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: calibri;
+     font-weight: bold;
+}
+.active{
+    font-weight: bolder;
+    color:red;  
+}
+.db{
+    background-color: rgb(153, 54, 54);
+    margin-top: 90px;
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 300px;
+    text-align: center;
+    font-weight: bold;
+    height: 330px;
+    text-transform: capitalize;
+    padding-top: 30px;
+}
+.stor{
+    background-color: goldenrod;
+    margin-top: 90px;
+    width: 380px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    height: 250px;
+    margin-left: 9px;
+    padding-top: 15px;
+    margin-top: 15px;
+
+}
+
+.coo{
+    background-color: green;
+    margin-top: 90px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    height: 50px;
+    margin-left: 30px;
+    padding-top: 5px;
+    margin-top: 5px;
+
+}
+.coo p,.rel p,.no p{
+    text-decoration: none;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rel{
+    background-color: lightslategray;
+    margin-top: 90px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    height: 50px;
+    margin-left: 30px;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+.no{
+    background-color: lightblue;
+    margin-top: 90px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    height: 50px;
+    margin-left: 30px;
+    padding-top: 5px;
+    margin-top: 5px;
+}
